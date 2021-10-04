@@ -116,9 +116,12 @@ $P_{75}$
 
 ## Medidas de posición: en la práctica
 
-Piensa en los ingresos mensuales de tu hogar.
+Piensa en los ingresos mensuales de tu hogar, ¿en qué decil de ingreso crees que se encuentre tu familia?
 
-¿En que decil de ingreso crees que se encuentre tu familia?
+<div class="centered">
+![](images/resultados_e1.PNG)
+</div>
+
 
 ## Medidas de posición: en la práctica
 ### Deciles de ingreso en México 2020
@@ -169,14 +172,102 @@ Se ubican hacia el centro de la distribución de los valores de la serie de dato
 
 ## Medidas de tendencia central: mediana
 
-La **MEDIANA** es el valor central de todos los datos cuando se encuentran ordenados de mayor a menor valor.
+La **MEDIANA** es el **valor central** de todos los datos cuando se encuentran ordenados de mayor a menor valor.
 
 Es tanto una medida de posición como de tendencia central.
 
 
 
+## Medidas de tendencia central: moda
+
+La **MODA** es el valor que **más se repite** en un conjunto de datos.
 
 
+## Medidas de tendencia central: media
+
+La **MEDIA** es una de las medidas de tendencia central más utilizadas, sin embargo, existen varias "medias":
+
+- Media aritmética (simple).
+- Media ponderada.
+- Media geométrica.
+- Media armónica.
+
+## Medidas de tendencia central: media aritmética
+
+La **MEDIA ARITMÉTICA** simple (o promedio simple) identifica el valor central de un conjunto de datos.
+
+<div class="centered">
+$\overline{x} = \frac{\displaystyle\sum_{i=1}^n x_i }{n}$
+</div>
+
+Donde:
+
+- $x_1, x_2,..., x_n$ es un conjunto numérico de datos.
+- n: número total de casos.  
+
+Importante: es afectada por los valores extremos de la distribución (grandes o pequeños)
+
+
+## Medidas de tendencia central: media ponderada
+
+La **MEDIA PONDERADA** se utiliza cuando cada registro (dato) tiene una importancia relativa distinta; considera ponderadores para asignar dichos pesos.
+
+<div class="centered">
+$\overline{x}_w = \frac{\displaystyle\sum_{i=1}^n x_i * w_i}{\displaystyle\sum_{i=1}^n w_i}$
+</div>
+
+Donde:
+
+- n: número total de casos.
+- $x_1, x_2,..., x_n$ es un conjunto numérico de datos.
+- $w_1, w_2,..., w_n$ es el peso correspondiente a cada $x_i$.
+
+
+
+## Medidas de tendencia central: media geométrica
+
+La **MEDIA GEOMÉTRICA** de un conjunto de datos se define como la enésima raíz del producto de n números.
+
+<div class="centered">
+  $\overline{x} = \sqrt[n]{x_1 *x_2*...*x_n} = (\displaystyle\prod_{i=1}^n x_i)^{1/n}$
+</div>
+
+Se utiliza particularmente para progresiones geométricas, razones, interés compuesto y números índices.
+
+IMPORTANTE: solo se puede aplicar a números positivos. Los valores extremos tienen menor influencia que en la media aritmética.
+
+
+## Medidas de tendencia central: media armónica
+
+La **MEDIA ARMÓNICA** es el recíproco de la media aritmética de los recíprocos de los datos:  
+
+<div class="centered">
+  $H = \frac{n}{\displaystyle\sum_{i=1}^n\frac{1}{x_i} } = \frac{n}{\frac{1}{x_1}+\frac{1}{x_2}+...+\frac{1}{x_n}}$
+</div>
+
+Es poco sensible a valores grandes pero muy sensible a valores próximos a ceros.
+
+Se recomienda para promediar velocidades (variaciones respecto al tiempo).
+
+IMPORTANTE: solo se puede aplicar a números positivos.
+
+## Medidas de tendencia central: media armónica
+
+Ejemplo **MEDIA ARMÓNICA**:
+
+Una familia realizó un viaje por carretera a Huatulco, registrando las siguientes velocidades:
+
+
+  - Los primeros 50 km a 90 km/h.
+  - Los segundos 50 km a 70 km/h.
+  - Los siguientes 50 km a 45 km/h.
+  - Los siguientes 50 km a 40 km/h.
+  - Los últimos 50 km a 50 km/h.
+
+
+Calcular la velocidad media del viaje.
+
+¿Cuánto tiempo duró el viaje?
 
 
 
