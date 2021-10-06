@@ -26,14 +26,14 @@
     <link crossorigin="anonymous" media="all" integrity="sha512-/VP86KJoXAL8SaRo4I/QwqdgNg6xpeeb3JQ3gBKRLW76BBnBz3KCWJIKybR8px9wNNB6ixlzxDPAjkOSmRHODA==" rel="stylesheet" href="https://github.githubassets.com/assets/github-fd53fce8a2685c02fc49a468e08fd0c2.css" />
 
   <script crossorigin="anonymous" defer="defer" integrity="sha512-bd5GjqJFbZLxlG4FXlu80JVzUSEHzxtnyyS98c3BaPbl32yravYkO9dNLUeI5QOm1XU7zIzJ0J5HOEQSfkgJOA==" type="application/javascript" src="https://github.githubassets.com/assets/environment-6dde468e.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-L73u/kiYwhdPjUzuhvV8QzQjYqr3Q+tCh7sAVRGBFfVW5P8UVv+ogRKssPbORk/KD1XHh+Vc9PiPv6qboDglSg==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-frameworks-2fbdeefe.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-Y0+inIN6JUUHIMrBhYuux2YasvqG3bYDkZZt/8TcAz/ctEzr53/lJodfNwoCYGJvvldOtTrnewM35ESPRkW3XA==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-vendor-634fa29c.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-c7dOB6hGd6OdYvUCrqXG0876tW5VQnJrRaBTz6kBjLZcGw2tKiXHfzDEiX5WEo1dseR2ilkdJPiZe1u0FrVhkg==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-frameworks-73b74e07.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-HKLxo1SCuvyND9pKagScspQtPtfYM442e7MMfig1ctv3M4xldrFt9nTLKE+KSshAfgn9839j9+BZPEeeUjJjKQ==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-vendor-1ca2f1a3.js"></script>
   
-  <script crossorigin="anonymous" defer="defer" integrity="sha512-ORqv/7xWWlbCQOkA5Xz+46P4lUJmmoo/JJqQzw4cFIdTY9OEGKEta9gWqDFZObppJHpdZTEWf9L1n7b/nk8nkg==" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-391aafff.js"></script>
+  <script crossorigin="anonymous" defer="defer" integrity="sha512-EaSGeSQFfxLpe/avYyWp+85njCuoiL1FSklaKpZW18T+zwAl6eUjL/gMoISAY62x7+aNOtNG9V7awsMzgkgiJw==" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-11a48679.js"></script>
   
     <script crossorigin="anonymous" defer="defer" integrity="sha512-Fv0IGb7X6YOQOp7bIjfuvISOJJCEsBWtmrn3neVFkckbHHt4pT0+T0nDl2mwVb1RCWVvS1DcZstOPl+SRFb0oA==" type="application/javascript" data-module-id="./chunk-advanced.js" data-src="https://github.githubassets.com/assets/chunk-advanced-16fd0819.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-5tWKSr7mhAzSh4Sx5YRFgKftdGxKwHKnOGYw5DlxjHhkQVURYFU3Bk5IMOGMKuAiJTlC3OXYM3xzGcyjzuEFQQ==" type="application/javascript" data-module-id="./chunk-animate-on-scroll.js" data-src="https://github.githubassets.com/assets/chunk-animate-on-scroll-e6d58a4a.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-nguMmLaYanOnMl1lVopgymh6r/ZOXLZ8spMV51/7j6zuJLkafzMixDWV1xIlhwn8Ytu/T4wqnFtE6v0YtPSTcg==" type="application/javascript" data-module-id="./chunk-codemirror.js" data-src="https://github.githubassets.com/assets/chunk-codemirror-9e0b8c98.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-KT8PJraOSW8f9HMDRcjmyilvPC/PVT3Pd9NpBA036w4RRzXaJGd/cSB8JxswenJDhSAPuydYcePTx8wWv/5CQw==" type="application/javascript" data-module-id="./chunk-codemirror.js" data-src="https://github.githubassets.com/assets/chunk-codemirror-293f0f26.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-ol5y71RI6PxIzSuxVDnwevlSWZzk4bNc3O/EjhN5zfx6VPqcyDOAiN9CoTydwOZwe2K3Jmu+85/EV19h4A13Uw==" type="application/javascript" data-module-id="./chunk-color-modes.js" data-src="https://github.githubassets.com/assets/chunk-color-modes-a25e72ef.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-DbpM4Xk+KtL8iCOI+ZACZGMdHN+r6aXCD2Wibv0FOD6mvDnGinYFYfj0BcPOrN5Ku2lJuhXylCh2wNDCLPBBeQ==" type="application/javascript" data-module-id="./chunk-confetti.js" data-src="https://github.githubassets.com/assets/chunk-confetti-0dba4ce1.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-xrMxZfj62OcLN3FgzDtzy+P688RoxGL3nmdd2r4qJEjQZq5ZkqBwD6WiRoV4Mhnds8Y7JQebMbRCTITdFlZytg==" type="application/javascript" data-module-id="./chunk-contributions-spider-graph.js" data-src="https://github.githubassets.com/assets/chunk-contributions-spider-graph-c6b33165.js"></script>
@@ -43,8 +43,8 @@
     <script crossorigin="anonymous" defer="defer" integrity="sha512-VSSd+Yzi2iMS+pibY6hD/WdypxAEdob5F2RMKxuKcAHS2EpFYJPeTXoVxt0NXg03tfj2dka2mEtHS+vjpYSaDw==" type="application/javascript" data-module-id="./chunk-edit-hook-secret-element.js" data-src="https://github.githubassets.com/assets/chunk-edit-hook-secret-element-55249df9.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-ErqZFlIt7zIbLoZHvwfq9Zjo5zo+Y1A410nePDGvK+WVTVP10iNTfoqdOOSZNSy1gtLKIWDIIiOV30lr6zUJCA==" type="application/javascript" data-module-id="./chunk-edit.js" data-src="https://github.githubassets.com/assets/chunk-edit-12ba9916.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-aiqMIGGZGo8AQMjcoImKPMTsZVVRl6htCSY7BpRmpGPG/AF+Wq+P/Oj/dthWQOIk9cCNMPEas7O2zAR6oqn0tA==" type="application/javascript" data-module-id="./chunk-emoji-picker-element.js" data-src="https://github.githubassets.com/assets/chunk-emoji-picker-element-6a2a8c20.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-lXwZAcxdjmA8zlPsFJmfTU/cxoND7RjkvPJgnsym8MXPos1tz+aCu7NomNKyy7RQ0tFd/DImH6AvzeaaHyVjHQ==" type="application/javascript" data-module-id="./chunk-failbot.js" data-src="https://github.githubassets.com/assets/chunk-failbot-957c1901.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-sy0KBzl3Hruew+orJ1/E4cyuUixtV0uS03SSHpYRzhAepWejugyPs3AwHpQ+Em5HaMfd1MPz/M4+xEaFbQc5gA==" type="application/javascript" data-module-id="./chunk-feature-callout-element.js" data-src="https://github.githubassets.com/assets/chunk-feature-callout-element-b32d0a07.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-grRajv+ZiHV6dOdj1ZVsPoGYLqUr9lblDxPEuf6Fo3/GNfqIwV0NUvqiq05w68106TDk/g3iUkpOjDEpiEepuA==" type="application/javascript" data-module-id="./chunk-failbot.js" data-src="https://github.githubassets.com/assets/chunk-failbot-82b45a8e.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-3jmKS/bkQpYNk9QJJ6D0y6iGTh7Lu2UVD/QLZZqutFE7e3IXxhEbQX0GXbl0PQWZ6whWKViOT3pOf/5zcaCXcA==" type="application/javascript" data-module-id="./chunk-feature-callout-element.js" data-src="https://github.githubassets.com/assets/chunk-feature-callout-element-de398a4b.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-OszE/6GlmrYt3ALid4xVFd3/4d9cUH08ndFsO7vs/RHCz2bJ8+UsbjBc8wf09hyCOe9PuEgW0HDWpD32xMio2Q==" type="application/javascript" data-module-id="./chunk-filter-input.js" data-src="https://github.githubassets.com/assets/chunk-filter-input-3accc4ff.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-BV7wU3kptBGiv52rPu5ez9Fp8hDs9NxIm75USxtiip+HjDhStyYpG7hQMatWFmoYcumArHN0IAbC0b8XJfg+Hw==" type="application/javascript" data-module-id="./chunk-get-repo-element.js" data-src="https://github.githubassets.com/assets/chunk-get-repo-element-055ef053.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-JuwLQc/GiXiL3aQZ3y52X1UWniOU21IfTqzwnrfsFgxCwwhPUgh7KcIHb2oTxGC+yi7k5KN1mGVRifLWQMcfVw==" type="application/javascript" data-module-id="./chunk-insights-query.js" data-src="https://github.githubassets.com/assets/chunk-insights-query-26ec0b41.js"></script>
@@ -74,12 +74,12 @@
     <script crossorigin="anonymous" defer="defer" integrity="sha512-+ghwIHl4WoTIKefFnsS00RF8wYc+3MqK4eEh1Rst68581JyTbm7O1RxzJjjzlXscQC81/zl70xwhc+SjdReoIA==" type="application/javascript" data-module-id="./chunk-three.module.js" data-src="https://github.githubassets.com/assets/chunk-three.module-fa087020.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-THgJsKACwTri1ETwLTU7myuj4XY4Jp4ZNziTof0Fo6v0iOljLueWxBybgtoOk1xWxa51GupjBc+gOoPGj8TaZA==" type="application/javascript" data-module-id="./chunk-tip.js" data-src="https://github.githubassets.com/assets/chunk-tip-4c7809b0.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-WK8VXw3lfUQ/VRW0zlgKPhcMUqH0uTnB/KzePUPdZhCm/HpxfXXHKTGvj5C0Oex7+zbIM2ECzULbtTCT4ug3yg==" type="application/javascript" data-module-id="./chunk-toast.js" data-src="https://github.githubassets.com/assets/chunk-toast-58af155f.js"></script>
-    <script crossorigin="anonymous" defer="defer" integrity="sha512-qQctKON00ZCL1BNnnwjV0aOAgyY2IldMuAC0WehApuX7ec+xDD3Qh570pECIas8O+u5+jIZ6BpKu+23xW7HmUQ==" type="application/javascript" data-module-id="./chunk-tweetsodium.js" data-src="https://github.githubassets.com/assets/chunk-tweetsodium-a9072d28.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-ZunpwBOViRebn/36Tku+7ZX39dPhNTIyKl+mL5t3n4F9JrcHiwYJdApE8OWHcvkzmGuD0f/AlUwzPIrafMHMBw==" type="application/javascript" data-module-id="./chunk-tweetsodium.js" data-src="https://github.githubassets.com/assets/chunk-tweetsodium-66e9e9c0.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-fvcOOYapCxPkDRQWz2WQzrqL6rRhX88yHWF87fb9Xny2Fq4lri0ONaVFL7XDSTiTyu4OTp+8WoyfMVpgGUaaVg==" type="application/javascript" data-module-id="./chunk-unveil.js" data-src="https://github.githubassets.com/assets/chunk-unveil-7ef70e39.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-hXM+wbN4loHepYG9wciuBZIBbZKnyrj1fHNEc2U4FGp4ferKbr4SA/wGyOZUun/W+yw+aHi0R0ZQqgr0YBFhQQ==" type="application/javascript" data-module-id="./chunk-user-status-submit.js" data-src="https://github.githubassets.com/assets/chunk-user-status-submit-85733ec1.js"></script>
     <script crossorigin="anonymous" defer="defer" integrity="sha512-wQnjXBFgueIl3c4MJVGGbqMThHgUcsOVtWP3vsLqqjRdtPae9B/fXj91Ow2UyzOF3b28lFfDi3jCyrJ+0oc/5g==" type="application/javascript" data-module-id="./chunk-webgl-warp.js" data-src="https://github.githubassets.com/assets/chunk-webgl-warp-c109e35c.js"></script>
   
-  <script crossorigin="anonymous" defer="defer" integrity="sha512-iNcbrF5qNxNX9EuVTZhFn3v7xgEl0fLbx91GJCnsl3UsHlZmrSHIp4lVPD1N0kp+0FWEpw81GeSdmUH77ksHmA==" type="application/javascript" src="https://github.githubassets.com/assets/repositories-88d71bac.js"></script>
+  <script crossorigin="anonymous" defer="defer" integrity="sha512-A4qmVMCzB5D2dyHe2jUKlYmeGBxzaGzo+me2FKfRqrKfvAFQqnb8lSH60xmtaAGbaJze3hBMBlA2IlCLCvFwLg==" type="application/javascript" src="https://github.githubassets.com/assets/repositories-038aa654.js"></script>
 <script crossorigin="anonymous" defer="defer" integrity="sha512-VkWgu6DTrdgalvai4dv3kFM+AW4sPKJ0HnXDkTR+ED2YuypnGKavD4cqmX0iwDu1nE46Iax70/mdH5hWKOjSGQ==" type="application/javascript" src="https://github.githubassets.com/assets/diffs-5645a0bb.js"></script>
 
   <meta name="viewport" content="width=device-width">
@@ -90,8 +90,8 @@
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
   <meta name="apple-itunes-app" content="app-id=1477376905" />
-    <meta name="twitter:image:src" content="https://opengraph.githubassets.com/d11968bf4e4eb0d01b92ff6b2f4d7fe1d4db53a321880a011956db570256d857/cjjmdata/curso_analisis_de_datos_I" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="curso_analisis_de_datos_I/grupo_edad_altura.csv at main · cjjmdata/curso_analisis_de_datos_I" /><meta name="twitter:description" content="Curso: Analisis de Datos I - Anahuac. Contribute to cjjmdata/curso_analisis_de_datos_I development by creating an account on GitHub." />
-    <meta property="og:image" content="https://opengraph.githubassets.com/d11968bf4e4eb0d01b92ff6b2f4d7fe1d4db53a321880a011956db570256d857/cjjmdata/curso_analisis_de_datos_I" /><meta property="og:image:alt" content="Curso: Analisis de Datos I - Anahuac. Contribute to cjjmdata/curso_analisis_de_datos_I development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="curso_analisis_de_datos_I/grupo_edad_altura.csv at main · cjjmdata/curso_analisis_de_datos_I" /><meta property="og:url" content="https://github.com/cjjmdata/curso_analisis_de_datos_I" /><meta property="og:description" content="Curso: Analisis de Datos I - Anahuac. Contribute to cjjmdata/curso_analisis_de_datos_I development by creating an account on GitHub." />
+    <meta name="twitter:image:src" content="https://opengraph.githubassets.com/a494a06c8c17e8aea59d8d644bdefb80c67cc83c81c89c1238157a6646f911fe/cjjmdata/curso_analisis_de_datos_I" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="curso_analisis_de_datos_I/grupo_edad_altura.csv at main · cjjmdata/curso_analisis_de_datos_I" /><meta name="twitter:description" content="Curso: Analisis de Datos I - Anahuac. Contribute to cjjmdata/curso_analisis_de_datos_I development by creating an account on GitHub." />
+    <meta property="og:image" content="https://opengraph.githubassets.com/a494a06c8c17e8aea59d8d644bdefb80c67cc83c81c89c1238157a6646f911fe/cjjmdata/curso_analisis_de_datos_I" /><meta property="og:image:alt" content="Curso: Analisis de Datos I - Anahuac. Contribute to cjjmdata/curso_analisis_de_datos_I development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="curso_analisis_de_datos_I/grupo_edad_altura.csv at main · cjjmdata/curso_analisis_de_datos_I" /><meta property="og:url" content="https://github.com/cjjmdata/curso_analisis_de_datos_I" /><meta property="og:description" content="Curso: Analisis de Datos I - Anahuac. Contribute to cjjmdata/curso_analisis_de_datos_I development by creating an account on GitHub." />
     
 
 
@@ -101,7 +101,7 @@
   <link rel="assets" href="https://github.githubassets.com/">
   
 
-  <meta name="request-id" content="F7F2:1489:B15CF:12BB97:615AB962" data-pjax-transient="true"/><meta name="html-safe-nonce" content="5952b506d11f6b03d4a89704842ec802339f1fed499a04c6d174b9a2988b9153" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJGN0YyOjE0ODk6QjE1Q0Y6MTJCQjk3OjYxNUFCOTYyIiwidmlzaXRvcl9pZCI6IjM5MDU5NDIyMDY0NDQwNTM1IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="2abac631399fc97bdc92d89d9b12c4fd5e89dc66dac1821ea8c440062ab5224a" data-pjax-transient="true"/>
+  <meta name="request-id" content="C55D:76CD:720AD:15C157:615AFEC0" data-pjax-transient="true"/><meta name="html-safe-nonce" content="078854ec7215614ff0c4f752a2fb01d90d66f0962395dd86f09a65797178ee14" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJDNTVEOjc2Q0Q6NzIwQUQ6MTVDMTU3OjYxNUFGRUMwIiwidmlzaXRvcl9pZCI6IjE0MDAwOTk2MTE4MzQ0NDY3MyIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="9b8e60a675f787abd2416dade75b6613cad0b3b56c658343bd2586d2c910bf07" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:408311271" data-pjax-transient>
 
@@ -143,10 +143,10 @@
 
     <meta name="enabled-features" content="BRANCH_PROTECTION_RULE_WEBHOOK,MARKETPLACE_PENDING_INSTALLATIONS,FILE_UPLOAD_CURSOR_POSITION">
 
-  <meta http-equiv="x-pjax-version" content="539daea2eb5571637be684a33188788081b572756169648609207a4b2c3b08fc">
+  <meta http-equiv="x-pjax-version" content="c968ea42bc668fd66601e1b1178d236136ff381f20e8b8409d15e3dcd3c1c765">
   <meta http-equiv="x-pjax-csp-version" content="8bb37f5b1649ef2bd79e9fefcbdd2cf21c1ba6315dbff4f9055455365d2daa86">
   <meta http-equiv="x-pjax-css-version" content="b2fa4163e7018ea220c6ecc3a98eb4b79de0edb28e96ffba31345742dc34a9d7">
-  <meta http-equiv="x-pjax-js-version" content="92a2d1244808948de440414c832c204934156ec475be7a35527f57a833a92eae">
+  <meta http-equiv="x-pjax-js-version" content="b62840f36bdd7b926c395951e9aa0f266160de0281ac06d8cd24486348846c8e">
   
 
     
@@ -373,7 +373,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="i2huNQxDKPnKPCs1Hbm57YY9Gv0wT7hB89eAUOIkvXfc+PAwq53K41F/2NJGxCwV1ucSjHkDWNZOkVu22wXj6Q==" />
+        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="b5ziq4tcQ7z5R4jg0YJG14qlHmT4+h1Ovw1jXBQdDGKtuX03OshS2uLh49Z1SgOBQsg/xqn1ph+hl4JXZjb6bw==" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -855,7 +855,7 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/cjjmdata/curso_analisis_de_datos_I/blob/ffedd36dba181d657cb7b33ad87bb2b5a33572cb/Datos/grupo_edad_altura.csv">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/cjjmdata/curso_analisis_de_datos_I/blob/d6c7f15a82dcdf35efc52d9f6f428932d63ca84f/Datos/grupo_edad_altura.csv">Permalink</a>
 
     <!-- blob contrib key: blob_contributors:v22:7b5c3165ae8ecf1f87f48fe5a9bb7362bb5a3302ef569a72e406058af89126fb -->
 
@@ -1058,7 +1058,7 @@
 
 </clipboard-copy>            </li>
             <li>
-              <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/cjjmdata/curso_analisis_de_datos_I/blob/ffedd36dba181d657cb7b33ad87bb2b5a33572cb/Datos/grupo_edad_altura.csv" data-view-component="true" class="dropdown-item cursor-pointer">
+              <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/cjjmdata/curso_analisis_de_datos_I/blob/d6c7f15a82dcdf35efc52d9f6f428932d63ca84f/Datos/grupo_edad_altura.csv" data-view-component="true" class="dropdown-item cursor-pointer">
     
                 <span class="d-flex flex-items-baseline">
                   <span class="flex-auto">Copy permalink</span>
@@ -1073,17 +1073,80 @@
 
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-      <include-fragment src="/cjjmdata/curso_analisis_de_datos_I/contributors/main/Datos/grupo_edad_altura.csv" class="commit-loader">
-        <div class="Box-header d-flex flex-items-center">
-          <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
-          <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
-        </div>
+      
+  <div class="Box-header Details js-details-container">
+      <div class="d-flex flex-items-center">
+        <span class="flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1">
+          <img class="avatar avatar-user" width="24" height="24" alt="" src="https://camo.githubusercontent.com/f17120c0a705c7c112f0d13a2e4721709d5292b5d32f2ddf9fc5ed0649a4d7fa/68747470733a2f2f302e67726176617461722e636f6d2f6176617461722f30303036366133386238343237313336356236616533366566653066303163323f643d68747470732533412532462532466769746875622e6769746875626173736574732e636f6d253246696d6167657325324667726176617461727325324667726176617461722d757365722d3432302e706e6726723d6726733d313430" data-canonical-src="https://0.gravatar.com/avatar/00066a38b84271365b6ae36efe0f01c2?d=https%3A%2F%2Fgithub.githubassets.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;r=g&amp;s=140" />
+        </span>
+        <div class="flex-1 d-flex flex-items-center ml-3 min-width-0">
+          <div class="css-truncate css-truncate-overflow">
+            <span class="text-bold Link--primary">cjjmdata</span>
 
-        <div class="Box-body d-flex flex-items-center" >
-          <div class="Skeleton Skeleton--text col-1">&nbsp;</div>
-          <span class="color-text-danger h6 loader-error">Cannot retrieve contributors at this time</span>
+              <span class="markdown-title">
+                <a data-pjax="true" title="Agregar datos en excel" class="Link--secondary" href="/cjjmdata/curso_analisis_de_datos_I/commit/62564e5d3a6f1fb263a4025c266bcf453cfb6b2b">Agregar datos en excel</a>
+              </span>
+          </div>
+
+
+          <span class="ml-2">
+            <include-fragment accept="text/fragment+html" src="/cjjmdata/curso_analisis_de_datos_I/commit/62564e5d3a6f1fb263a4025c266bcf453cfb6b2b/rollup?direction=e" class="d-inline"></include-fragment>
+          </span>
         </div>
-</include-fragment>    </div>
+        <div class="ml-3 d-flex flex-shrink-0 flex-items-center flex-justify-end color-text-secondary no-wrap">
+          <span class="d-none d-md-inline">
+            <span>Latest commit</span>
+            <a class="text-small text-mono Link--secondary" href="/cjjmdata/curso_analisis_de_datos_I/commit/62564e5d3a6f1fb263a4025c266bcf453cfb6b2b" data-pjax>62564e5</a>
+            <span itemprop="dateModified"><relative-time datetime="2021-09-20T04:55:39Z" class="no-wrap">Sep 20, 2021</relative-time></span>
+          </span>
+
+          <a data-pjax href="/cjjmdata/curso_analisis_de_datos_I/commits/main/Datos/grupo_edad_altura.csv" class="ml-3 no-wrap Link--primary no-underline">
+            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-history">
+    <path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"></path>
+</svg>
+            <span class="d-none d-sm-inline">
+              <strong>History</strong>
+            </span>
+          </a>
+        </div>
+      </div>
+
+  </div>
+
+  <div class="Box-body d-flex flex-items-center flex-auto border-bottom-0 flex-wrap" >
+    <details class="details-reset details-overlay details-overlay-dark lh-default color-text-primary float-left mr-3" id="blob_contributors_box">
+      <summary class="Link--primary">
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-people">
+    <path fill-rule="evenodd" d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"></path>
+</svg>
+        <strong>0</strong>
+        
+        contributors
+      </summary>
+      <details-dialog
+        class="Box Box--overlay d-flex flex-column anim-fade-in fast"
+        aria-label="Users who have contributed to this file"
+        src="/cjjmdata/curso_analisis_de_datos_I/contributors-list/main/Datos/grupo_edad_altura.csv" preload>
+        <div class="Box-header">
+          <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
+            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
+          </button>
+          <h3 class="Box-title">
+            Users who have contributed to this file
+          </h3>
+        </div>
+        <include-fragment>
+          <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="my-3 mx-auto d-block anim-rotate">
+  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg>
+        </include-fragment>
+      </details-dialog>
+    </details>
+  </div>
+    </div>
 
 
 
