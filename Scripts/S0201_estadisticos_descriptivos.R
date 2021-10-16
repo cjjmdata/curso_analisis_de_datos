@@ -67,5 +67,21 @@ geometric.mean(rendimiento)
 velocidad <- c(90,70,45,40,50)
 harmonic.mean(velocidad)
 
+# Rango
+range(data_gpo$Altura)  # Retorna el valor mínimo y máximo
+diff(range(data_gpo$Altura))
 
+range(data_gpo$Edad)
+diff(range(data_gpo$Edad))
+
+# Rango intercuartil
+quantile(data_gpo$Altura, probs = c(0.25, 0.75)) # Regresa el Q1 y Q3
+diff(quantile(data_gpo$Altura, probs = c(0.25, 0.75))) # Diferencia entre valor máximo Q3 y mínimo Q1
+
+quantile(data_gpo$Edad, probs = c(0.25, 0.75))
+diff(quantile(data_gpo$Edad, probs = c(0.25, 0.75)))
+
+# Boxplot
+boxplot(data_gpo$Altura, horizontal=TRUE)
+boxplot(data_gpo$Edad, horizontal=TRUE)
 

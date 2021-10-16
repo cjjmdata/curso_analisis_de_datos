@@ -24,7 +24,7 @@
         usePrettify: true,
         enableSlideAreas: true,
         enableTouch: true,
-                        favIcon: 'images/negocios.jpg',
+                        favIcon: 'images\negocios.jpg',
               },
 
       // Author information
@@ -162,7 +162,7 @@ slide:not(.current) .plotly.html-widget{
       position: absolute;
       bottom: 20px;
       left: 60px;
-      background: url(images/negocios.jpg) no-repeat 0 50%;
+      background: url(images\negocios.jpg) no-repeat 0 50%;
       -webkit-background-size: 30px 30px;
       -moz-background-size: 30px 30px;
       -o-background-size: 30px 30px;
@@ -319,6 +319,8 @@ data_gpo &lt;- read.csv(filename)</pre>
 
 <pre class = 'prettyprint lang-r'>?quantile</pre>
 
+<pre >## starting httpd help server ... done</pre>
+
 </article></slide><slide class=""><hgroup><h2>Medidas de tendencia central</h2></hgroup><article  id="medidas-de-tendencia-central">
 
 <p>Su objetivo es resumir en un único valor un conjunto de valores.</p>
@@ -423,7 +425,174 @@ data_gpo &lt;- read.csv(filename)</pre>
 
 <p>Calcular la velocidad media del viaje.</p>
 
-<p>¿Cuánto tiempo duró el viaje?</p></article></slide>
+<p>¿Cuánto tiempo duró el viaje?</p>
+
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Niveles de medida de las variables</h2></hgroup><article  id="niveles-de-medida-de-las-variables">
+
+</article></slide><slide class=""><hgroup><h2>Escalas de medida</h2></hgroup><article  id="escalas-de-medida">
+
+<p>El tipo de escala utilizado para medir una variable determina qué tipo de análisis estadístico se puede utilizar.</p>
+
+<ul>
+<li><p>Obtener la media del género</p></li>
+<li><p>Obtener la mediana del nombre</p></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Escala nominal</h2></hgroup><article  id="escala-nominal">
+
+<p>Los números se comportan como etiquetas. No orden ni magnitud.</p>
+
+<p>Deben ser excluyentes y exhaustivas.</p>
+
+<p>Moda, frecuencias.</p>
+
+</article></slide><slide class=""><hgroup><h2>Escala ordinal</h2></hgroup><article  id="escala-ordinal">
+
+<p>Distingue entre valores y les asigna un orden.</p>
+
+<ul>
+<li>NSE</li>
+<li>Orden de preferencia</li>
+</ul>
+
+<p>Moda, frecuencias, mediana, percentiles.</p>
+
+</article></slide><slide class=""><hgroup><h2>Escala de intervalo</h2></hgroup><article  id="escala-de-intervalo">
+
+<p>Identificación, orden y sentido, pero sin cero absoluto.</p>
+
+</article></slide><slide class=""><hgroup><h2>Escala de razón</h2></hgroup><article  id="escala-de-razón">
+
+<p>Identificación, orden, sentido y cero absoluto.</p>
+
+<ul>
+<li>Edad</li>
+<li>Altura</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Otras clasificaciones</h2></hgroup><article  id="otras-clasificaciones">
+
+<p>Clasificación de Stevens: - No métricas: nominales y ordinales - Métricas: de intervalo y razón</p>
+
+</article></slide><slide class=""><hgroup><h2>Otras clasificaciones</h2></hgroup><article  id="otras-clasificaciones-1">
+
+<p>Basado en valores de las variables - Variables discretas: solo puede tomar un número determinado de valores en un intervalo determinado. - Variables continuas: puede tomar potencialmente cualquier valor numérico en un intervalo dado.</p>
+
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Medidas de dispersión</h2></hgroup><article  id="medidas-de-dispersión">
+
+</article></slide><slide class=""><hgroup><h2>Rango</h2></hgroup><article  id="rango">
+
+<p>Indica la diferencia entre el valor máximo y valor mínimo de un conjunto de datos.</p>
+
+<div class="centered">
+<p>\(R = x_{max} - x_{min}\)</p></div>
+
+<ul>
+<li>Se mide en las mismas unidades que el conjunto de datos (años, metros, etc.)</li>
+<li>Proporciona información sobre la dispersión total, pero no respecto a un valor en particular (medida de tendencia central)</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Rango intercuartil</h2></hgroup><article  id="rango-intercuartil">
+
+<p>Mide la diferencia entre el tercer y primer cuartil. Busca identificar y eliminar los valores extremos.</p>
+
+<div class="centered">
+<p>\(IQR = Q_3 - Q_1\)</p></div>
+
+<ul>
+<li>El rango intercuartil (o intercuartílico), concentra al 50% de las observaciones centrales que se encuentran alrededor de la mediana: 25% por debajo de la mediana y 25% por arriba de la mediana</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Diagrama de caja y brazos</h2></hgroup><article  id="diagrama-de-caja-y-brazos">
+
+<p>Son gráficos que muestran la distribución de una variable usando cuartiles.</p>
+
+<p>Ejemplo en R</p>
+
+<p><code>boxplot(data_gpo$Edad, horizontal=TRUE)</code></p>
+
+</article></slide><slide class=""><hgroup><h2>Desviación respecto a la media</h2></hgroup><article  id="desviación-respecto-a-la-media">
+
+<p>Dada tu altura, ¿qué tan lejos o cerca de la altura media del salón estás?</p>
+
+<p>¿Qué tan lejos o cerca de la media está cada observación?</p>
+
+<p>Desviación de la i-ésima observación respecto de la media (promedio):</p>
+
+<div class="centered">
+<p>\(dm = (x_i - \overline{x})\)</p></div>
+
+<ul>
+<li>Una desviación positiva indica que el datos es mayor que el promedio</li>
+<li>Una desviación negativa indica que el dato es menor al promedio</li>
+<li>Una desviación igual a cero indica que el datos es igual al promedio</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Desviación respecto a la media</h2></hgroup><article  id="desviación-respecto-a-la-media-1">
+
+<p>¿Cuál es la suma de todas a las desviaciones?</p>
+
+<div class="centered">
+<p>\(\displaystyle\sum_{i=1}^n (x_i - \overline{x}) = ?\)</p></div>
+
+<p>¿Por qué?</p>
+
+<p>¿Cómo podemos obtener una medida &lsquo;promedio&rsquo; de la desviación de los datos?</p>
+
+</article></slide><slide class=""><hgroup><h2>Varianza</h2></hgroup><article  id="varianza">
+
+<p>Mide la variabilidad de una serie de datos respecto a su media.</p>
+
+<div class="centered">
+<p>&ldquo;Promedio de las desviaciones cuadráticas respecto a su media&rdquo;</p></div>
+
+<ul>
+<li>Su unidad de medida corresponde al cuadrado de la unidad de medida de la serie de datos (\(metros^2\), \(años^2\)).</li>
+<li>Es una medida de la dispersión de los datos</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Varianza</h2></hgroup><article  id="varianza-1">
+
+<p>Poblacional</p>
+
+<div class="centered">
+<p>\(\delta^2 = \frac{\displaystyle\sum_{i=1}^N (x_i - \overline{x})^2 }{N}\)</p></div>
+
+<p>Muestral</p>
+
+<div class="centered">
+<p>\(s^2 = \frac{\displaystyle\sum_{i=1}^n (x_i - \overline{x})^2 }{n-1}\)</p></div>
+
+<p>Donde \(\overline{x}\) es el promedio observado de los datos</p>
+
+</article></slide><slide class=""><hgroup><h2>Varianza: propiedades</h2></hgroup><article  id="varianza-propiedades">
+
+<ul>
+<li>\(V(x) \geq 0\)</li>
+<li>Si k es una constante, entonces \(V(k)=0\)</li>
+<li>Si k es una constante, entonces \(V(kx)=k^2V(x)\)</li>
+<li>Si X y Y son dos variables conmensurables, entonces V(x+y) no es necesariamente igual a V(x)+V(y).</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Grados de libertad (degrees of freedom)</h2></hgroup><article  id="grados-de-libertad-degrees-of-freedom">
+
+<p>¿Por qué al calcular la varianza muestral dividimos las desviaciones cuadráticas entre n-1 y no solo entre n?</p>
+
+<p>&ldquo;La suma de los valores de las desviaciones de los valores individuales con respecto a su media es igual a cero, hecho que puede demostrarse. Si se conocen los n-1 valores de los valores a partir de la media, entonces se conoce el n-ésimo valor, ya que queda determinado automáticamente debido a la restricción de 3que todos los valores de n sumen cero&rdquo;. (Daniel Wayne, 2007)</p>
+
+<p>&ldquo;Se definen como el número de valores que podemos escoger 5libremente&rdquo;. (Levin, 1996)</p>
+
+</article></slide><slide class=""><hgroup><h2>Desviación estándar</h2></hgroup><article  id="desviación-estándar">
+
+<p>Poblacional</p>
+
+<div class="centered">
+<p>\(\delta =\sqrt[]{\delta^2} = \sqrt[]\frac{\displaystyle\sum_{i=1}^N (x_i - \overline{x})^2 }{N}\)</p></div>
+
+<p>Muestral</p>
+
+<div class="centered">
+<p>\(s = \sqrt[]{s^2} = \sqrt[]\frac{\displaystyle\sum_{i=1}^n (x_i - \overline{x})^2 }{n-1}\)</p></div></article></slide>
 
 
   <slide class="backdrop"></slide>

@@ -11,6 +11,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(downloader)
+library(downloader)
 ```
 
 ## Medidas de posición
@@ -268,6 +269,183 @@ Una familia realizó un viaje por carretera a Huatulco, registrando las siguient
 Calcular la velocidad media del viaje.
 
 ¿Cuánto tiempo duró el viaje?
+
+
+# Niveles de medida de las variables
+
+## Escalas de medida
+
+El tipo de escala utilizado para medir una variable determina qué tipo de análisis estadístico se puede utilizar.
+
+- Obtener la media del género
+
+- Obtener la mediana del nombre
+
+
+## Escala nominal
+
+Los números se comportan como etiquetas. No orden ni magnitud.
+
+Deben ser excluyentes y exhaustivas.
+
+Moda, frecuencias.
+
+
+
+## Escala ordinal
+
+Distingue entre valores y les asigna un orden.
+
+- NSE
+- Orden de preferencia
+
+Moda, frecuencias, mediana, percentiles.
+
+## Escala de intervalo
+
+Identificación, orden y sentido, pero sin cero absoluto.
+
+## Escala de razón
+
+Identificación, orden, sentido y cero absoluto.
+
+- Edad
+- Altura
+
+## Otras clasificaciones
+
+Clasificación de Stevens:
+- No métricas: nominales y ordinales
+- Métricas: de intervalo y razón
+
+## Otras clasificaciones
+Basado en valores de las variables
+- Variables discretas: solo puede tomar un número determinado de valores en un intervalo determinado.
+- Variables continuas: puede tomar potencialmente cualquier valor numérico en un intervalo dado.
+
+# Medidas de dispersión
+
+## Rango
+
+Indica la diferencia entre el valor máximo y valor mínimo de un conjunto de datos.
+
+<div class="centered">
+$R = x_{max} - x_{min}$
+</div>
+- Se mide en las mismas unidades que el conjunto de datos (años, metros, etc.)
+- Proporciona información sobre la dispersión total, pero no respecto a un valor en particular (medida de tendencia central)
+
+## Rango intercuartil
+
+Mide la diferencia entre el tercer y primer cuartil. Busca identificar y eliminar los valores extremos.
+
+<div class="centered">
+$IQR = Q_3 - Q_1$
+</div>
+
+- El rango intercuartil (o intercuartílico), concentra al 50% de las observaciones centrales que se encuentran alrededor de la mediana: 25% por debajo de la mediana y 25% por arriba de la mediana
+
+## Diagrama de caja y brazos
+
+Son gráficos que muestran la distribución de una variable usando cuartiles.
+
+Ejemplo en R
+
+`boxplot(data_gpo$Edad, horizontal=TRUE)`
+
+
+## Desviación respecto a la media
+
+Dada tu altura, ¿qué tan lejos o cerca de la altura media del salón estás?
+
+¿Qué tan lejos o cerca de la media está cada observación?
+
+Desviación de la i-ésima observación respecto de la media (promedio):
+
+<div class="centered">
+$dm = (x_i - \overline{x})$
+</div>
+
+- Una desviación positiva indica que el datos es mayor que el promedio
+- Una desviación negativa indica que el dato es menor al promedio
+- Una desviación igual a cero indica que el datos es igual al promedio
+
+## Desviación respecto a la media
+
+¿Cuál es la suma de todas a las desviaciones?
+
+<div class="centered">
+$\displaystyle\sum_{i=1}^n (x_i - \overline{x}) = ?$
+</div>
+
+¿Por qué?
+
+¿Cómo podemos obtener una medida 'promedio' de la desviación de los datos?
+
+
+## Varianza
+
+Mide la variabilidad de una serie de datos respecto a su media.
+
+<div class="centered">
+"Promedio de las desviaciones cuadráticas respecto a su media"
+</div>
+
+- Su unidad de medida corresponde al cuadrado de la unidad de medida de la serie de datos ($metros^2$, $años^2$).
+- Es una medida de la dispersión de los datos
+
+## Varianza
+
+Poblacional
+
+<div class="centered">
+$\delta^2 = \frac{\displaystyle\sum_{i=1}^N (x_i - \overline{x})^2 }{N}$
+</div>
+
+Muestral
+
+<div class="centered">
+$s^2 = \frac{\displaystyle\sum_{i=1}^n (x_i - \overline{x})^2 }{n-1}$
+</div>
+
+Donde $\overline{x}$ es el promedio observado de los datos
+
+## Varianza: propiedades
+
+- $V(x) \geq 0$
+- Si k es una constante, entonces $V(k)=0$
+- Si k es una constante, entonces $V(kx)=k^2V(x)$
+- Si X y Y son dos variables conmensurables, entonces V(x+y) no es necesariamente igual a V(x)+V(y).
+
+
+## Grados de libertad (degrees of freedom)
+
+¿Por qué al calcular la varianza muestral dividimos las desviaciones cuadráticas entre n-1 y no solo entre n?
+
+“La  suma  de  los  valores  de  las  desviaciones  de  los  valores 
+individuales con respecto a su media es igual a cero, hecho que 
+puede demostrarse. Si se conocen los n-1 valores de los valores a 
+partir de la media, entonces se conoce el n-ésimo valor, ya que 
+queda determinado automáticamente debido a la restricción de 3que todos los valores de n sumen cero”. (Daniel Wayne, 2007)
+
+“Se  definen  como  el  número  de  valores  que  podemos  escoger 5libremente”. (Levin, 1996)
+
+
+## Desviación estándar
+
+Poblacional
+
+<div class="centered">
+$\delta =\sqrt[]{\delta^2} = \sqrt[]\frac{\displaystyle\sum_{i=1}^N (x_i - \overline{x})^2 }{N}$
+</div>
+
+Muestral
+
+<div class="centered">
+$s = \sqrt[]{s^2} = \sqrt[]\frac{\displaystyle\sum_{i=1}^n (x_i - \overline{x})^2 }{n-1}$
+</div>
+
+
 
 
 
