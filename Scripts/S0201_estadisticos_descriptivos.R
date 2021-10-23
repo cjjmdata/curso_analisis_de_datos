@@ -85,3 +85,21 @@ diff(quantile(data_gpo$Edad, probs = c(0.25, 0.75)))
 boxplot(data_gpo$Altura, horizontal=TRUE)
 boxplot(data_gpo$Edad, horizontal=TRUE)
 
+
+# Varianza
+x_1 <- rep(50, 5)
+x_2 <- c(45, 50, 55, 47, 53)
+x_3 <- c(3, 97, 10, 105, 35)
+# promedio
+mean(x_1)
+mean(x_2)
+mean(x_3)
+# Varianza
+var(x_1)
+var(x_2)
+var(x_3)
+
+
+
+
+

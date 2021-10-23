@@ -315,11 +315,14 @@ Identificación, orden, sentido y cero absoluto.
 ## Otras clasificaciones
 
 Clasificación de Stevens:
+
 - No métricas: nominales y ordinales
 - Métricas: de intervalo y razón
 
 ## Otras clasificaciones
+
 Basado en valores de las variables
+
 - Variables discretas: solo puede tomar un número determinado de valores en un intervalo determinado.
 - Variables continuas: puede tomar potencialmente cualquier valor numérico en un intervalo dado.
 
@@ -420,15 +423,12 @@ Donde $\overline{x}$ es el promedio observado de los datos
 
 ## Grados de libertad (degrees of freedom)
 
-¿Por qué al calcular la varianza muestral dividimos las desviaciones cuadráticas entre n-1 y no solo entre n?
+¿Por qué al calcular la varianza muestral dividimos las desviaciones cuadráticas entre n-1 y no solo entre N?
 
 “La  suma  de  los  valores  de  las  desviaciones  de  los  valores 
-individuales con respecto a su media es igual a cero, hecho que 
-puede demostrarse. Si se conocen los n-1 valores de los valores a 
-partir de la media, entonces se conoce el n-ésimo valor, ya que 
-queda determinado automáticamente debido a la restricción de 3que todos los valores de n sumen cero”. (Daniel Wayne, 2007)
+individuales con respecto a su media es igual a cero, hecho que puede demostrarse. Si se conocen los n-1 valores de los valores a partir de la media, entonces se conoce el n-ésimo valor, ya que queda determinado automáticamente debido a la restricción de que todos los valores de n sumen cero”. (Daniel Wayne, 2007)
 
-“Se  definen  como  el  número  de  valores  que  podemos  escoger 5libremente”. (Levin, 1996)
+“Se  definen  como  el  número  de  valores  que  podemos  escoger libremente”. (Levin, 1996)
 
 
 ## Desviación estándar
@@ -446,6 +446,40 @@ $s = \sqrt[]{s^2} = \sqrt[]\frac{\displaystyle\sum_{i=1}^n (x_i - \overline{x})^
 </div>
 
 
+## Coeficiente de variación de Pearson
+
+Qué varía más: el peso de las hormigas de una colonia o el peso de elefantes en un país.
 
 
+Si se requiere comparar la variabilidad de dos o más conjuntos de datos, no basta con comparar las desviaciones estándar: hay que eliminar el efecto de las unidades de medida de la variable.
+
+## Coeficiente de variación de Pearson
+
+El coeficiente de variación de Pearson nos permite comparar la variabilidad de diversos conjuntos de datos de manera adecuada:
+
+<div class="centered">
+$CV = \frac{\displaystyle\ s}{\displaystyle\ |\overline{x}|}$
+</div>
+
+Donde $|\overline{x}|$ es el valor absoluto de la media de los datos, con $\overline{x} \neq 0$
+
+## Coeficiente de variación de Pearson
+
+Propiedades:
+
+- El CV es adimensional, es decir, carece de unidades de medida, por lo que se puede utilizar directamente para comparar la variabilidad de conjuntos de datos distintos, por ejemplo, tamaños de peras con tamaños manzanas, peso de hormigas con peso de elefantes, e incluso datos de distinta dimensión, como la variabilidad de la altura y edad de los integrantes de una clase.
+- Es insensible ante cambios de escala.
+- A mayor valor del CV, mayor heterogeneidad en el conjunto de datos, y a menor valor del CV mayor homogeneidad.
+
+
+
+## Coeficiente de variación: ejemplo
+
+En una muestra levantada en una reserva se encontró que el peso promedio de un elefante adulto es de 6,000 kg con una desviación estándar de 500 kg. En tanto, en otro estudio se estimó para una muestra de ratones un peso promedio de 24 gramos y una desviación estándar de 10 gramos.
+
+¿Qué población tiene mayor dispersión?
+
+$CV_{elefantes} = \frac{s}{\overline{x}} = \frac{500}{6,000} = 0.0833$
+
+$CV_{ratones} = \frac{s}{\overline{x}} = \frac{10}{24} = 0.4167$
 
