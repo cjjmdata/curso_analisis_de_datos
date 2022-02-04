@@ -483,3 +483,4 @@ $CV_{elefantes} = \frac{s}{\overline{x}} = \frac{500}{6,000} = 0.0833$
 
 $CV_{ratones} = \frac{s}{\overline{x}} = \frac{10}{24} = 0.4167$
 
+

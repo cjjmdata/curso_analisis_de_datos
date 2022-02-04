@@ -18,7 +18,7 @@
 # Ejemplo de uso de divisiones
 ## Tenemos un grupo de 23 alumnos
 ## y debemos asignarlos en equipos de 5
-## ¿Cuátos equipos se forman y cuántos alumnos
+## ¿Cuántos equipos se forman y cuántos alumnos
 ## sobran?
 ## Equipos que se pueden formar:
 23%/%5
